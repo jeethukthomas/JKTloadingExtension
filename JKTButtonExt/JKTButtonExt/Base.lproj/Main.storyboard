@@ -45,6 +45,10 @@
                                     <action selector="onClick:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="W3W-Bo-wbH"/>
                                 </connections>
                             </button>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6dL-PF-nlh">
+                                <rect key="frame" x="83" y="237" width="109" height="108"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -56,6 +60,7 @@
                     </view>
                     <connections>
                         <outlet property="btn" destination="l9J-vh-hSS" id="d9H-Zu-7JL"/>
+                        <outlet property="vv" destination="6dL-PF-nlh" id="gc6-Ar-pxQ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>

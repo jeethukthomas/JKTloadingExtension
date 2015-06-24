@@ -17,10 +17,11 @@ extension UIView {
         
         if (self.layer.animationForKey("cornerRadius") == nil)
         {
-            var cornerRadius:CGFloat = 2
+            var cornerRadius = (CGRectGetHeight(self.frame) == CGRectGetWidth(self.frame)) ? CGRectGetHeight(self.frame)/2 : ((CGRectGetHeight(self.frame) < CGRectGetWidth(self.frame)) ? CGRectGetHeight(self.frame)/2 : CGRectGetWidth(self.frame)/2)
+            
             if (needRoundEdge != nil) && (needRoundEdge == true)
             {
-                cornerRadius = (CGRectGetHeight(self.frame) == CGRectGetWidth(self.frame)) ? CGRectGetHeight(self.frame)/2 : ((CGRectGetHeight(self.frame) < CGRectGetWidth(self.frame)) ? CGRectGetHeight(self.frame)/2 : CGRectGetWidth(self.frame)/2)
+                
                 
                 animation.fromValue = self.layer.cornerRadius
                 animation.toValue = cornerRadius
@@ -53,7 +54,7 @@ extension UIView {
     func addCustomLoading(color:UIColor, side:CGFloat)
     {
         var image1:UIImageView = UIImageView(image: UIImage(named: "1.png"))
-        var image2:UIImageView = UIImageView(image: UIImage(named: "2.png"))
+        var image2:UIImageView = UIImageView(image: UIImage(named: "1t.png"))
         
         image1.tintColor = color
         image2.tintColor = color
@@ -77,7 +78,7 @@ extension UIView {
         
         let animation1 = CABasicAnimation(keyPath: "transform.rotation.z")
         animation1.toValue = M_PI
-        animation1.duration = 1;
+        animation1.duration = 0.5;
         animation1.cumulative = true;
         animation1.repeatCount = HUGE;
         image1.layer.addAnimation(animation1, forKey: "rotate1")

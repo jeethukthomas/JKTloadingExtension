@@ -10,7 +10,10 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet var vv: UIView!
     @IBOutlet var btn: UIButton!
+    
+    var flag = 0
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -22,8 +25,18 @@ class ViewController: UIViewController {
     }
     @IBAction func onClick(sender: AnyObject) {
         
-        var theBtn : UIButton = (sender as? UIButton)!
+        var theBtn : UIView = (sender as? UIView)!
+        if flag == 0
+        {
+            flag = 1
        theBtn.loadBtn(color: UIColor.purpleColor(), needRoundEdge: true)
+        }
+        else
+        {
+            flag = 0
+            theBtn.unLoadBtn()
+        }
+        
         
     }
 

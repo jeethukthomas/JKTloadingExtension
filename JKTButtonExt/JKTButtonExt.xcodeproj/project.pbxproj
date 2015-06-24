@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		482463C81B1DBEA4002ADDAC /* 2t.png in Resources */ = {isa = PBXBuildFile; fileRef = 482463C61B1DBEA4002ADDAC /* 2t.png */; };
+		482463C91B1DBEA4002ADDAC /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 482463C71B1DBEA4002ADDAC /* 2.png */; };
 		487B9CBC1B171397009608B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487B9CBB1B171397009608B3 /* AppDelegate.swift */; };
 		487B9CBE1B171397009608B3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487B9CBD1B171397009608B3 /* ViewController.swift */; };
 		487B9CC11B171397009608B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 487B9CBF1B171397009608B3 /* Main.storyboard */; };
@@ -16,7 +18,7 @@
 		487B9CDC1B172468009608B3 /* pic.png in Resources */ = {isa = PBXBuildFile; fileRef = 487B9CDB1B172468009608B3 /* pic.png */; };
 		487B9CDE1B17287B009608B3 /* JKTAsyncLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487B9CDD1B17287B009608B3 /* JKTAsyncLoading.swift */; };
 		48B103761B186EE5003B51A1 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 48B103741B186EE5003B51A1 /* 1.png */; };
-		48B1037A1B18815A003B51A1 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 48B103791B18815A003B51A1 /* 2.png */; };
+		48B1037A1B18815A003B51A1 /* 1t.png in Resources */ = {isa = PBXBuildFile; fileRef = 48B103791B18815A003B51A1 /* 1t.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +32,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		482463C61B1DBEA4002ADDAC /* 2t.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2t.png; sourceTree = "<group>"; };
+		482463C71B1DBEA4002ADDAC /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
 		487B9CB61B171397009608B3 /* JKTButtonExt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JKTButtonExt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		487B9CBA1B171397009608B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		487B9CBB1B171397009608B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -43,7 +47,7 @@
 		487B9CDB1B172468009608B3 /* pic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pic.png; sourceTree = "<group>"; };
 		487B9CDD1B17287B009608B3 /* JKTAsyncLoading.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JKTAsyncLoading.swift; sourceTree = "<group>"; };
 		48B103741B186EE5003B51A1 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
-		48B103791B18815A003B51A1 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		48B103791B18815A003B51A1 /* 1t.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1t.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +89,9 @@
 		487B9CB81B171397009608B3 /* JKTButtonExt */ = {
 			isa = PBXGroup;
 			children = (
-				48B103791B18815A003B51A1 /* 2.png */,
+				482463C61B1DBEA4002ADDAC /* 2t.png */,
+				482463C71B1DBEA4002ADDAC /* 2.png */,
+				48B103791B18815A003B51A1 /* 1t.png */,
 				48B103741B186EE5003B51A1 /* 1.png */,
 				487B9CDB1B172468009608B3 /* pic.png */,
 				487B9CBB1B171397009608B3 /* AppDelegate.swift */,
@@ -204,10 +210,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48B1037A1B18815A003B51A1 /* 2.png in Resources */,
+				48B1037A1B18815A003B51A1 /* 1t.png in Resources */,
 				487B9CC11B171397009608B3 /* Main.storyboard in Resources */,
+				482463C81B1DBEA4002ADDAC /* 2t.png in Resources */,
 				487B9CC61B171397009608B3 /* LaunchScreen.xib in Resources */,
 				48B103761B186EE5003B51A1 /* 1.png in Resources */,
+				482463C91B1DBEA4002ADDAC /* 2.png in Resources */,
 				487B9CDC1B172468009608B3 /* pic.png in Resources */,
 				487B9CC31B171397009608B3 /* Images.xcassets in Resources */,
 			);
